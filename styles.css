@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(244, 245, 232, 0.438);
+}
+.navbar{
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgba(0,0,0,.1);
+text-align: center;
+}
+li{
+
+    margin-right: 45px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 23px;
+ 
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li:hover a{
+    color:red;
+}
+.navbar_menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    letter-spacing:2px;
+
+}
+.capital_letter{
+    color: crimson;
+    font-weight: 700;
+    
+}
+.capital{
+    margin-top: 45px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 50px;
+    
+}
+.band{
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.main_photo{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    
+}
+.disco_photo{
+    display: flex;
+    justify-content: center; 
+  padding:15px ;
+  padding-left: 10px;
+
+}
+.disco_photo img{
+margin: 5px;
+}
+.footer{
+background-color: black;
+text-align: center;
+color: rgb(242, 80, 11);
+}
+.scroll-top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+     
+  }
+.scroll-top-button img {
+    width: 40px; 
+    
+  }
+ 
+  
